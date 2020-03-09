@@ -1,0 +1,266 @@
+body,html{
+	height:100%;
+}
+
+.background{
+	height:100%;
+    background-image: url("../photos/12957560_10204504597213919_536434777478217067_o (1).jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.background2{
+    height: 100%;
+    background-image: url("../photos/10926775_10202334920773364_5466160729864698984_o.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.background3{
+	height:100%;
+  /*  background-image: url("../photos/14241554_179994845764975_3808197914546843874_o.jpg"); */
+	background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center;
+}
+
+.background4{
+	height:1090px;
+    background-image: url("../photos/DSC_6686-min.jpg");
+	background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position:center;
+	background-attachment: fixed;
+}
+
+.background5{
+	height:1100px;
+   /* background-image: url("../photos/kfest2-min.jpg"); */
+	background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center;
+}
+
+.background6{
+	height:100%;
+   background-image: url("../photos/20180330_ROAK_KFest114114-min.jpg");
+	background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.background7{
+	height:1000px;
+    background-image: url("../photos/kfest2-min.jpg");
+	background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.grow { 
+transition: all .05s ease-in-out; 
+}
+
+.grow:hover { 
+transform: scale(1.2); 
+}
+
+.nav-link{
+	font-size: 18px;
+}
+
+.klier{
+	position: relative;
+	top:150px;
+}
+
+.header{
+    position: relative;
+    top: 160px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #E7E7E7;
+    font-size: 34px;
+}
+
+.footer{
+	position: relative;
+	top: 175px
+}
+
+#linkedin{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.page_header{
+	position: relative;
+	top: 50px;
+}
+
+.bio_div{
+	position: relative;
+	top:75px
+}
+
+.bio_text{
+	font-size: 18px;
+}
+
+.contact{
+	position: relative;
+	top:70px;
+}
+
+.sound_cloud{
+	position: relative;
+	top: 60px;
+}
+
+#game_theater{
+    position: relative;
+    top: 56px;
+    text-shadow: 3px 2px 2px #000000;
+}
+
+#albums_eps{
+	position: relative;
+	top: 56px;
+}
+
+.bandcamp{
+	position: relative;
+	top: 60px;
+}
+
+.pdf{
+	position: relative;
+	top:70px;
+}
+
+.gallery{
+	position: relative;
+	top: 100px;
+}
+
+@media only screen and (max-width: 768px){
+	
+	body,html{
+		background-color:black;
+	}
+	
+	.header{
+		font-size: 21px;
+	}
+	
+	.bio_text{
+		font-size: 14px;
+	}
+	
+	.bio_image{
+		height: 280px;
+		margin-bottom:10px;
+	}
+	
+	.bio_div{
+		position: relative;
+		top: 95px;
+	}
+
+	.background4{
+		height: 1150px;
+	}
+	
+}
+
+@media only screen and (max-width: 576px){
+	.bio_image{
+		height: 270px;
+	}
+	
+	.bio_div{
+		position: relative;
+		top: 70px;
+	}
+	
+	.bio_text{
+		font-size: 13px;
+	}
+	
+	.page_header{
+	position: relative;
+	top: 60px;
+	}
+	
+	.background{
+    background-color: black;
+		background-image: none;
+	}
+	
+	.background5{
+		height: 490%;
+	}
+	
+	iframe{
+		margin-top:10px;
+		padding-top:20px
+	}
+	
+	.background3{
+		height: 2800px;
+	}
+	
+	.pdf{
+		width:100%;
+	}
+	
+	.background4{
+		height:2000px;
+	}
+	
+	.bandcamp{
+		height:180px;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	.bio_image{
+		height: 190px;
+		margin-bottom: 2px;
+	}
+	
+	.bio_text{
+		font-size: 12px;
+		background-color: black;
+		padding: 10px;
+	}
+	
+	.background5{
+		height: 550%;
+	}
+	
+	.background2{
+		height: 110%;
+	}
+	
+	.nav-link{
+		font-size:10px;
+	}
+	
+	.background3{
+		height: 2000px;
+	}
+	
+	
+}
